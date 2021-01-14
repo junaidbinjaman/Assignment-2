@@ -70,7 +70,8 @@
 
 .product-footer {
     margin-top: 10px;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     align-items: center;
 }
 
@@ -151,7 +152,7 @@
         border-radius: 10px;
         background: #f7f7f7;
         padding: 34px;
-        height: 440px;
+        height: 340px;
         width: 270px;
         margin: 0 auto;
     }
@@ -183,5 +184,11 @@
         width: 130px;
         font-size: 20px;
         margin: 20px 0;
+    }
+    .women-section {
+        margin-left: 30px;
+    }
+    .product-footer h4 {
+        font-size: 25px;
     }
 }
